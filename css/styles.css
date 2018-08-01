@@ -1,0 +1,32 @@
+html {
+font-family: Helvetica, sans-serif;
+text-align:center;
+color:#000;
+background:hsl(180, 20%, 50%);
+}
+#header {
+  position: fixed;
+  top: 0px;
+}
+@media (max-width: 650px;) {
+html {
+  background:hsl(180, 20%, 70%);
+}
+@media (min-width: 700px;) {
+#navbar {
+  position: fixed;
+  left: 0px;
+  padding-top: 100px;
+}
+#navbar > li {
+  list-style-type: none;
+}
+header {
+  font-size: 2em;
+  font-weight: bold;
+}
+}
+.main-section {
+margin:15px;
+padding:50px;
+}
